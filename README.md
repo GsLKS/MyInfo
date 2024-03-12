@@ -66,6 +66,8 @@ async function MyInfoJson() {
     return;
   }
 }
+
+MyInfoJson();
 ```
 
 ### Info
