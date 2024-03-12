@@ -32,3 +32,41 @@ const mi = require("myinfo");
 ```
 
 **Basic Script**
+
+* This is similar to using the normal command.
+
+```js
+async function MyInfoNormal() {
+    // normal output
+  try {
+    // do something...
+    const Mi = await mi({ output: "normal" });
+    return await Mi;
+  } catch (error) {
+    return;
+  }
+}
+
+MyInfoNormal();
+```
+
+* Using json allows for easy integration into applications
+
+```js
+async function MyInfoJson() {
+  // json usage
+  try {
+    const Mi = await mi({ output: "json" });
+    // do somenthing
+    // example
+    console.log(JSON.parse(Mi));
+    // example: console.log(JSON.parse(Mi).ip); 
+    // shows ip
+  } catch (error) {
+    return;
+  }
+}
+```
+
+### Info
+`'MyInfo'` displays system information, allowing general use of the informations.
