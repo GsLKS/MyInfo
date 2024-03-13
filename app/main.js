@@ -33,7 +33,7 @@ function getIPAddress() {
         hostname: 'ie.cubie.com.br',
         path: '/partners-api/aethera-myinfo',
         headers: {
-            'User-Agent': 'MyInfo/1.0.0'
+            'User-Agent': 'MyInfo/1.0.1'
         }
     };
 
