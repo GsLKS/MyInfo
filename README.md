@@ -1,6 +1,8 @@
 # MyInfo
 Displays information about your system, device and network.
 
+**[CHANGELOG](https://github.com/GsLKS/MyInfo)**
+
 ![Lib Name](https://img.shields.io/static/v1?label=Librairy&message=MyInfo&color=blue) ![Version](https://img.shields.io/npm/v/myinfo.svg?logo=npm) ![Stars](https://img.shields.io/github/stars/GsLKS/MyInfo)
 
 ### Command Usage (INSTALLING):
