@@ -1,0 +1,8 @@
+{
+  "name": "MyInfo",
+  "version": "1.0.0",
+  "main_cmd": "./app/main",
+  "main_src": "./src",
+  "engine": "nodejs",
+  "args": ["github", "npm", "cubie"]
+}
