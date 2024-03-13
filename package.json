@@ -1,7 +1,7 @@
 {
   "name": "myinfo",
   "version": "1.0.1",
-  "description": "Displays various information about your system and device.",
+  "description": "Displays information about your system and device.",
   "bin": {
     "myinfo": "app/main.js",
     "mifix": "app/mifix.js"
