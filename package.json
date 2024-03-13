@@ -1,0 +1,32 @@
+{
+  "name": "myinfo",
+  "version": "1.0.0",
+  "description": "Displays various information about your system and device.",
+  "bin": {
+    "myinfo": "./app/main.js",
+    "mifix": "./app/mifix.js"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node labs/test",
+    "myinfo": "myinfo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GsLKS/MyInfo.git"
+  },
+  "keywords": [
+    "MyInfo",
+    "About Me",
+    "Better NeoFech",
+    "All about my system"
+  ],
+  "author": "Aethera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GsLKS/MyInfo/issues"
+  },
+  "homepage": "https://github.com/GsLKS/MyInfo#readme",
+  "dependencies": {
+  }
+}
