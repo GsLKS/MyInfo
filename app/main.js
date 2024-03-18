@@ -25,7 +25,7 @@ return mi;
 */
 /* mi:end */
 
-console.log('MyInfo is working...');
+console.log('\x1b[32m[MyInfo]: Working...');
 
 
 function getIPAddress() {
@@ -33,7 +33,7 @@ function getIPAddress() {
         hostname: 'ie.cubie.com.br',
         path: '/partners-api/aethera-myinfo',
         headers: {
-            'User-Agent': 'MyInfo/1.0.1'
+            'User-Agent': 'MyInfo/1.1.0'
         }
     };
 
@@ -144,7 +144,7 @@ Disk Free: ${memoryUsage.free}MB
 Disk Total: ${memoryUsage.total}MB
 */
     } catch (error) {
-        console.error('Error:', error.message);
+        console.error('\x1b[31mError:', error.message + '\x1b[0m');
     }
 }
 
