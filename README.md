@@ -23,13 +23,14 @@ myinfo
 mifix
 ```
 
-### Usage (API)
+### Usage (API/Coding)
 
 You can also use `MyInfo` as a librairy normaly.
 
 **Importing 'MyInfo'**
 
 ```js
+// require myinfo
 const mi = require("myinfo");
 ```
 
@@ -52,7 +53,7 @@ async function MyInfoNormal() {
 MyInfoNormal();
 ```
 
-* Using json allows for easy integration into applications
+* Using json allows a easy integration to your apps
 
 ```js
 async function MyInfoJson() {

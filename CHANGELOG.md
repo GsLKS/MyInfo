@@ -10,3 +10,10 @@ This is a public list of changes made for each MyInfo update.
 
 * [+] General error fixing
 * [+] Working commands
+
+# 1.1.0 
+
+* New Colors
+* Text Fix
+* MiFix improved
+* AT-ERR Updated to 0.2

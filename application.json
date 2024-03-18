@@ -1,6 +1,6 @@
 {
   "name": "MyInfo",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "main_cmd": "./app/main",
   "main_src": "./src",
   "engine": "nodejs",
