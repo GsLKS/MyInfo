@@ -25,7 +25,7 @@ return mi;
 */
 /* mi:end */
 
-console.log('\x1b[32m[MyInfo]: Working...');
+console.log('\x1b[32m[MyInfo]: Working...\x1b[0m');
 
 
 function getIPAddress() {

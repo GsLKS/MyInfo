@@ -17,6 +17,6 @@ exec('npm uninstall -g myinfo', (error, stdout, stderr) => {
       return;
     }
 
-    console.log(`\x1b[32mMyInfo was successfully fixed, try to use the new version.\x1b[0m`);
+    console.log(`\x1b[32mMyInfo was successfully fixed, test the the new fixed version.\x1b[0m`);
   });
 });
